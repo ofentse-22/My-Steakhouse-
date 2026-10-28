@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple steakhouse menu with prices in South African rand and nutrition information.">
+  <title>My Steakhouse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="home">
+    <h1>My Steakhouse</h1>
+    <p>Good steak at a good price</p>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Welcome to My Steakhouse</h2>
+      <p>We serve tasty steak and simple sides, cooked fresh for you.</p>
+      <a class="menu-button" href="#menu">See our menu</a>
+    </section>
+
+    <section class="food-pictures" aria-label="Steakhouse food pictures">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Grilled steak with fresh herbs">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Burger served with a side of fries">
+      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Fresh salad with colorful vegetables">
+    </section>
+
+    <section class="menu" id="menu">
+      <h2>Our Menu</h2>
+
+      <div class="menu-columns">
+        <section class="menu-category" aria-labelledby="steaks-heading">
+          <h3 id="steaks-heading">Steaks</h3>
+          <p>All steaks and ribs are served with chips.</p>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Grilled sirloin steak">
+            <div class="item-heading">
+              <h4>Grilled Sirloin (250 g)</h4>
+              <span class="price">R189</span>
+            </div>
+            <p>A tender sirloin steak grilled just the way you like it, served with chips.</p>
+            <p class="nutrition">1,040 calories | Protein 68 g | Carbs 56 g | Fat 60 g</p>
+            <p class="micronutrients">Iron 6 mg | Zinc 11 mg | Vitamin B12 6 mcg | Potassium 950 mg | Vitamin C 12 mg | Sodium 380 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Rib-eye steak served hot">
+            <div class="item-heading">
+              <h4>Rib-eye Steak (250 g)</h4>
+              <span class="price">R229</span>
+            </div>
+            <p>A juicy, rich steak with our house seasoning, served with chips.</p>
+            <p class="nutrition">1,140 calories | Protein 64 g | Carbs 56 g | Fat 72 g</p>
+            <p class="micronutrients">Iron 5 mg | Zinc 10 mg | Vitamin B12 5 mcg | Potassium 950 mg | Vitamin C 12 mg | Sodium 380 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Grilled rump steak">
+            <div class="item-heading">
+              <h4>Rump Steak (250 g)</h4>
+              <span class="price">R169</span>
+            </div>
+            <p>A classic, full-flavoured steak with garlic butter, served with chips.</p>
+            <p class="nutrition">980 calories | Protein 66 g | Carbs 56 g | Fat 52 g</p>
+            <p class="micronutrients">Iron 6 mg | Zinc 9 mg | Vitamin B12 5 mcg | Potassium 950 mg | Vitamin C 12 mg | Sodium 380 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="T-bone steak">
+            <div class="item-heading">
+              <h4>T-bone Steak (350 g)</h4>
+              <span class="price">R249</span>
+            </div>
+            <p>A big, flame-grilled steak served with chips.</p>
+            <p class="nutrition">1,200 calories | Protein 82 g | Carbs 56 g | Fat 72 g</p>
+            <p class="micronutrients">Iron 8 mg | Zinc 13 mg | Vitamin B12 7 mcg | Potassium 950 mg | Vitamin C 12 mg | Sodium 380 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Barbecue beef ribs served with chips">
+            <div class="item-heading">
+              <h4>BBQ Beef Ribs</h4>
+              <span class="price">R215</span>
+            </div>
+            <p>Slow-cooked ribs covered in our sweet BBQ sauce, served with chips.</p>
+            <p class="nutrition">1,110 calories | Protein 54 g | Carbs 80 g | Fat 64 g</p>
+            <p class="micronutrients">Iron 5 mg | Zinc 8 mg | Sodium 1,300 mg | Potassium 950 mg | Vitamin C 12 mg</p>
+          </article>
+        </section>
+
+        <section class="menu-category" aria-labelledby="sides-heading">
+          <h3 id="sides-heading">Meals &amp; Sides</h3>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Steak burger served with chips">
+            <div class="item-heading">
+              <h4>Steak Burger Meal</h4>
+              <span class="price">R139</span>
+            </div>
+            <p>Beef patty, lettuce, tomato and chips.</p>
+            <p class="nutrition">760 calories | Protein 38 g | Carbs 64 g | Fat 38 g</p>
+            <p class="micronutrients">Iron 5 mg | Zinc 7 mg | Vitamin B12 3 mcg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Golden steakhouse chips">
+            <div class="item-heading">
+              <h4>Steakhouse Chips</h4>
+              <span class="price">R45</span>
+            </div>
+            <p>Golden chips with a pinch of salt.</p>
+            <p class="nutrition">420 calories | Protein 6 g | Carbs 56 g | Fat 20 g</p>
+            <p class="micronutrients">Potassium 950 mg | Vitamin C 12 mg | Sodium 380 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Fresh garden salad">
+            <div class="item-heading">
+              <h4>Garden Salad</h4>
+              <span class="price">R39</span>
+            </div>
+            <p>Lettuce, tomato, cucumber and a light dressing.</p>
+            <p class="nutrition">120 calories | Protein 3 g | Carbs 12 g | Fat 7 g</p>
+            <p class="micronutrients">Vitamin C 22 mg | Potassium 410 mg | Sodium 180 mg</p>
+          </article>
+
+          <article class="menu-item">
+            <img class="menu-food-image" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=320&amp;h=240&amp;q=80" alt="Creamed spinach side">
+            <div class="item-heading">
+              <h4>Creamed Spinach</h4>
+              <span class="price">R42</span>
+            </div>
+            <p>Soft spinach cooked with a little cream.</p>
+            <p class="nutrition">180 calories | Protein 5 g | Carbs 9 g | Fat 14 g</p>
+            <p class="micronutrients">Iron 3 mg | Calcium 150 mg | Vitamin A 480 mcg</p>
+          </article>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <p>My Steakhouse</p>
+  </footer>
+</body>
+</html>
